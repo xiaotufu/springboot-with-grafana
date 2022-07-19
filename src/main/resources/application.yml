@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-service
+
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://172.19.2.68:14268/api/traces
+
